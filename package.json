@@ -1,5 +1,5 @@
 {
-  "name": "altyin",
+  "name": "proto",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -17,14 +17,14 @@
     "react-spring": "^8.0.27",
     "typescript": "^3.8.2"
   },
-  "homepage": "https://taxidermied-potato.github.io",
+  "homepage": "https://taxidermied-potato.github.io/prototype",
   "scripts": {
     "start": "react-app-rewired start",
     "build": "react-app-rewired build",
     "test": "react-app-rewired test",
     "eject": "react-app-rewired eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b master -d build"
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
