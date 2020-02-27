@@ -1,0 +1,51 @@
+.card1,
+.card2,
+.card3,
+.card4,
+.card5,
+.card6,
+.card7 {
+  position: absolute;
+  border-radius: 5px;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  will-change: transform;
+}
+
+.card1 {
+  width: 105vw;
+  height: 40vh;
+  background-image: url('../parallax/PBack.png');
+  background-position: 0% 80%;
+  box-shadow: inset 0px 0px 10rem black;
+}
+
+.card2 {
+  width: 15vw;
+  height: 30vw;
+  background-image: url('../parallax/loginscreen1.png');
+}
+
+.card3 {
+  width: 15vw;
+  height: 30vw;
+  background-image: url('../parallax/postspage.png');
+}
+
+.card4 {
+  width: 15vw;
+  height: 30vw;
+  background-image: url('../parallax/loginscreen.png');
+}
+
+.p-container {
+  padding-top: 2vw;
+  min-width: 250px;
+  min-height: 150px;
+  width: 25vw;
+  height: 15vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
